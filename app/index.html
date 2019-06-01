@@ -2,11 +2,36 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Console Output</title>
-    <script type="text/javascript" src="build/dest/kotlin.js"></script>
-    <script type="text/javascript" src="build/dest/lib.js"></script>
-    <script type="text/javascript" src="build/dest/app.js"></script>
 </head>
 <body>
+<div>
+    <h1>Calculator</h1>
+    <input id="input" size="30" value="(1 + 2) + 3 * (-1 / ( 1 - 0.5 ) )"> = <span id="result">?</span>
+    <br/>
+    * check the console log
+</div>
+<div>
+    <h1>HTML Parser</h1>
+    <textarea id="html" cols="100" rows="10" autofocus>
+<h4 class="card-title m-t-30">Limit on Date</h4>
+<h6 class="card-subtitle">In these picker,maximum timespan between deadline dates.</h6>
+<div class="input-group mb-3">
+    <input type="text" class="form-control dateLimit" readonly />
+    <div class="input-group-append">
+        <span class="input-group-text">
+            <span class="ti-calendar"></span>
+        </span>
+    </div>
+</div>
+    </textarea>
+    <p>
+        <button id="parse" type="button">parse</button>
+        * check the console log
+    </p>
+    <textarea id="parsed" cols="100" rows="10" readonly></textarea>
+</div>
+<script type="text/javascript" src="build/kotlin-js-min/main/kotlin.js"></script>
+<script type="text/javascript" src="build/kotlin-js-min/main/lib.js"></script>
+<script type="text/javascript" src="build/kotlin-js-min/main/app.js"></script>
 </body>
 </html>

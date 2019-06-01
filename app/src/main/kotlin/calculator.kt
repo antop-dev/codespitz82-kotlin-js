@@ -15,11 +15,9 @@ fun ex(v: String) =
     }
 
 fun calc(v: String): Double {
+    println("calc → $v")
     var r = v // 인자로 들어온 변수는 final
     while (paren.containsMatchIn(r)) {
-        println("--")
-        println("cycle = $r")
-
         r = r.replace(paren) {
             println("() = ${it.groupValues[1]}")
             "${ex(it.groupValues[1])}"
