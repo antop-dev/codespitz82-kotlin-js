@@ -6,6 +6,8 @@ import kotlin.browser.document
 fun main() {
     app()
     parser()
+    htmlBuilder()
+    testFetch()
 }
 
 fun app() {

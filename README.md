@@ -103,6 +103,16 @@
   - 완전 재귀일 경우 for문으로 바뀐다. 단 현재 자바에서만 된다고 한다?
   - 리턴타입을 확정 지어줘야 한다.
 
+## 4일차
+
+[코드스피츠82 코틀린JS로 배우는 코틀린 기초 - 4회차](https://www.youtube.com/watch?v=ttIDj6wvjgI)
+
+* constructor
+* operator overloading: https://kotlinlang.org/docs/reference/operator-overloading.html
+* companion object
+* by, by lazy
+* object & companion object
+* sealed class & enum
 
 
 
